@@ -1,0 +1,434 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+	background-image: url(../images/ramii.JPG);
+	background-size: 100% auto;                      /* <------ */
+	background-repeat: no-repeat;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  /*border: 1px solid black;*/
+  opacity: 0.9;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+	box-shadow: 10px 10px 5px grey;
+}
+.personal-info {
+	text-align: center;
+}
+
+div.transbox.personal-info{
+	margin: 30px;
+	background-color: #eef0f0;
+	/*border: 1px solid black;*/
+	opacity: 0.9;
+	filter: alpha(opacity=60);
+	margin-top: 2em;
+}
+
+div.professional-summary {
+	background-color: #eef0f0;
+}
+div.prof-tech {
+	align: center;
+	overflow:hidden;
+	margin-top: 0em;
+}
+h5 {
+	font-family: Helvetica;
+}
+div.transbox.technical-toolbox{
+	align: center;
+	overflow:hidden;
+	height: 383.797px;
+	background-color: #eef0f0;
+	text-align: left;
+}
+div.transbox.technical-toolbox p {
+	margin: 2%;
+}
+div.transbox.work-experience {
+	text-alignment: auto;
+	background-color: #eef0f0;
+}
+a:link {
+    color: #black;
+		text-decoration: none;
+}
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+	margin-top: 1em;
+	margin-bottom: 1.3em;
+}
+div.transbox.education{
+	align: center;
+	overflow:hidden;
+	height: 536.48px;
+	background-color: #eef0f0;
+	text-align: auto;
+}
+h3 {
+	font-family: Helvetica;
+	margin: 0.5em;
+	color: black;
+	font-size: 2em;
+}
+li {
+	font-family: Helvetica;
+}
+div.transbox.education p {
+	margin-left: 7%;
+	margin-top: 0%;
+	margin-bottom: 1%;
+}
+h4.company {
+	margin-left: 2%;
+}
+h5 {
+	margin-top: 0%;
+	margin-left: 2%;
+}
+p.full-bio {
+	text-align: center;
+}
+span {
+		font-family: Helvetica;
+		margin-top: 0.2em;
+		margin-bottom: 0.5em;
+		/*margin: 0.5em;*/
+		color: black;
+		font-size: 1.5em;
+}
+.contact {
+		font-family: Helvetica;
+		margin-top: 0.1em;
+		margin-bottom: 0.8em;
+		/*margin: 0.5em;*/
+		color: black;
+		font-size: 1em;
+}
+h4 {
+	font-family: Helvetica;
+	margin: 0.5em;
+	color: black;
+}
+
+a:link {
+    text-decoration: none;
+		color: black;
+		font-family: Helvetica;
+}
+p {
+	text-decoration: none;
+	color: black;
+	font-family: Helvetica;
+}
+a:visited {
+    color: black;
+		text-decoration: none;
+}
+span a:hover {
+    /*color: hotpink;*/
+		text-decoration: underline;
+		color: #ff8066;
+}
+p a:hover {
+    /*color: hotpink;*/
+		text-decoration: underline;
+		color: #ff8066;
+}
+span a i:hover {
+    /*color: hotpink;*/
+		text-decoration: underline;
+		color: #ff8066;
+
+}
+/*}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}*/
+
+/*h1 {
+	color: #4e2f1c;
+	padding-right: 9em;
+	font-family: 'Audiowide', sans-serif;
+	/*float: right;*/
+/*}
+
+p {
+	font-family: 'Aldrich', sans-serif;
+	color: #4e2f1c;
+	/*padding-left: 13em;
+	float: right;*/
+/*}
+
+.col-7 {
+	width: 40%;
+	font-size: 18px;
+	float: right;
+	padding-top: 450px;
+
+}*/
+/*.col-9 {
+	width: 40%;
+	font-size: 18px;
+	float: right;
+	padding-top: 450px;
+
+/*}*//*/*/
+
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- Galaxy S3 ----------- */
+
+/* Portrait and Landscape */
+@media screen
+  and (device-width: 320px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media screen
+  and (device-width: 320px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen
+  and (device-width: 320px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- Galaxy S4 ----------- */
+
+/* Portrait and Landscape */
+@media screen
+  and (device-width: 320px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media screen
+  and (device-width: 320px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen
+  and (device-width: 320px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- Galaxy S5 ----------- */
+
+/* Portrait and Landscape */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+
+}
+/* ----------- HTC One ----------- */
+
+/* Portrait and Landscape */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+
+}
+/* ----------- Non-Retina Screens ----------- */
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) {
+}
